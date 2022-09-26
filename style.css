@@ -1,3 +1,4 @@
-.title-bar {
-    padding-left: 20%;
+.mono {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
 }
