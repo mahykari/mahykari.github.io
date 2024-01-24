@@ -4,16 +4,16 @@ title: Mahyar Karimi
 ---
 
 <div class="container-fluid bg-light">
-  <div class="row-fluid">
+  <div class="row">
     <div class="col-md-3">
-      <img src="/my_picture.jpg" class="img-fluid" alt="My Picture">
+      <img src="/my_picture.jpg" class="img-thumbnail float-left" alt="My Picture">
     </div>
-    <div class="col-md-9">
+    <div class="col-md-6">
       <h1>Mahyar Karimi</h1>
-      <h2>Ph.D. Student at Institute of Science and Technology Austria</h2>
-      <h2>Klosterneuburg, Austria</h2>
+      <h2>Ph.D. Student</h2>
+      <h2>Institute of Science and Technology Austria</h2>
       <br><br>
-      <h4><a href="./cv.pdf">Curriculum Vitae</a></h4>
+      <h4><a href="/cv.pdf">Curriculum Vitae</a></h4>
     </div>
   </div>
 </div>
@@ -22,14 +22,17 @@ title: Mahyar Karimi
 <div class="container-fluid">
   <h2>Contact Details</h2>
   {% for item in site.data.contact_info %}
-    <p class="mono">
+    <p class="fs-5 font-monospace">
       <i class="fa {{ item.icon }}" aria-hidden="true"></i>
       {{ item.value }}
     </p>
   {% endfor %}
 </div>
 <div class="container-fluid">
-  <div class="row-fluid">
-    <h3>This page will be gradually completed.</h3>
-  </div>
+  <h2>Publications</h2>
+  <p class="fs-5">
+    Please visit my 
+    <a href="https://scholar.google.com/citations?user=J6Tlj6QAAAAJ&hl=en">
+    Google Scholar page</a>.
+  </p>
 </div>
