@@ -1,9 +1,6 @@
+- type: address
+  icon: fa-building
+  value: Am Campus 1, 3400 Klosterneuburg, Austria
 - type: email
   icon: fa-envelope
   value: mahyar.karimi (at) ist.ac.at
-# - type: skype
-#   icon: fa-skype
-#   value: live:.cid.7a12cf94f8cb25ff
-# - type: linkedin
-#   icon: fa-linkedin
-#   value: mahyar-karimi-87962a1b2
