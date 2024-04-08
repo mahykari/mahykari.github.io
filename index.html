@@ -5,34 +5,33 @@ title: Mahyar Karimi
 
 <div class="container-fluid bg-light">
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-2">
       <img src="/my_picture.jpg" class="img-thumbnail float-left" alt="My Picture">
     </div>
     <div class="col-md-6">
       <h1>Mahyar Karimi</h1>
-      <h2>Ph.D. Student</h2>
-      <h2>Institute of Science and Technology Austria</h2>
-      <br><br>
-      <h4><a href="/cv.pdf">Curriculum Vitae</a></h4>
+      <h3>Ph.D. Student, IST Austria</h3>
+      <p><a href="/cv.pdf">Curriculum Vitae</a></p>
     </div>
   </div>
 </div>
-<br><br>
-
+<br>
 <div class="container-fluid">
-  <h2>Contact Details</h2>
+  <h3>Contact Details</h3>
   {% for item in site.data.contact_info %}
-    <p class="fs-5 font-monospace">
-      <i class="fa {{ item.icon }}" aria-hidden="true"></i>
-      {{ item.value }}
+    <p>
+      {{ item.type }}:
+      <span class="fst-italic">{{ item.value }}</span>
     </p>
   {% endfor %}
 </div>
 <div class="container-fluid">
-  <h2>Publications</h2>
-  <p class="fs-5">
+  <h3>Publications</h3>
+  <p>
     Please visit my 
     <a href="https://scholar.google.com/citations?user=J6Tlj6QAAAAJ&hl=en">
     Google Scholar page</a>.
+    You can identify me with my 
+    <a href="https://orcid.org/0009-0005-0820-1696">ORCID iD</a>.
   </p>
 </div>
