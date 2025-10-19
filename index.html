@@ -1,45 +1,77 @@
----
-layout: default
-title: Mahyar Karimi
----
-
-<div class="container-fluid bg-light">
-  <div class="row">
-    <div class="col-md-2">
-      <img src="/my_picture.jpg" class="img-thumbnail float-left" alt="My Picture">
-    </div>
-    <div class="col-md-6">
-      <h1>Mahyar Karimi</h1>
-      <h3>Ph.D. Student, IST Austria</h3>
-      <p><a href="/cv.pdf">Curriculum Vitae</a></p>
-    </div>
-  </div>
-</div>
-<br>
-<div class="container-fluid">
-  <h3>Contact Details</h3>
-  {% for item in site.data.contact_info %}
-    <p>
-      {{ item.type }}:
-      <span class="fst-italic">{{ item.value }}</span>
-    </p>
-  {% endfor %}
-</div>
-<div class="container-fluid">
-  <h3>Research</h3>
-  <p>
-    I'm interested in topics from formal methods and verification.
-    My focus so far has been on runtime verification
-    (in particular, monitoring), and verifiable machine learning.
-    I like to explore formal methods in its other directions as well.
-</div>
-<div class="container-fluid">
-  <h3>Publications</h3>
-  <p>
-    Please visit my 
-    <a href="https://scholar.google.com/citations?user=J6Tlj6QAAAAJ&hl=en">
-    Google Scholar page</a>.
-    You can identify me with my 
-    <a href="https://orcid.org/0009-0005-0820-1696">ORCID iD</a>.
-  </p>
-</div>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Mahyar Karimi</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Mahyar Karimi</h1>
+</header>
+<figure>
+<img src="/my_picture.jpg" alt="My picture, from early ’25" />
+<figcaption aria-hidden="true">My picture, from early ’25</figcaption>
+</figure>
+<p>I am a Ph.D. candidate at the Institute of Science and Technology
+Austria (current “ISTA,” former “IST Austria,” possibly changing in
+another 5 years), supervised by Tom Henzinger.</p>
+<p>You can find my CV <a href="/cv.pdf">here</a>.</p>
+<h3 id="contact-details">Contact Details</h3>
+<dl>
+<dt>Snail mail</dt>
+<dd>
+Am Campus 1, 3400 Klosterneuburg, Austria
+</dd>
+<dt>Email</dt>
+<dd>
+mahyar.karimi (at) ist (dot) ac (dot) at
+</dd>
+</dl>
+<h3 id="research">Research</h3>
+<p>Most of the things I like to work on live in the domains of formal
+verification and software engineering. My focus so far has been on
+<em>monitoring</em> (that is, runtime verification), secure <span
+class="math inline"><em>n</em></span>-party computation (<span
+class="math inline"><em>n</em> ≥ 2</span>), and verifiable machine
+learning. I’ll be happy to explore any of these topics further.</p>
+<h3 id="publications">Publications</h3>
+<p>Please visit my <a
+href="https://scholar.google.com/citations?user=J6Tlj6QAAAAJ&amp;hl=en">Google
+Scholar page</a>. You can identify me with my <a
+href="https://orcid.org/0009-0005-0820-1696">ORCID iD</a>.</p>
+<h3 id="recent-posts">Recent Posts</h3>
+<ul>
+<li><a href="posts/2025-10-20-supervision.html">Academic
+“supervision”?</a> (20.10.2025)</li>
+</ul>
+<hr />
+<center>
+<em>This page is generated from pure Markdown, with Simple.css for
+styling.</em>
+</center>
+</body>
+</html>
