@@ -1,6 +1,6 @@
 ---
 title: Academic "supervision"?
-date: 2025-10-20
+date: 20.10.2025
 ---
 
 What's the role of an academic supervisor?
@@ -28,7 +28,7 @@ Willingly opting out of one's responsibility.
 
 Now, what's wrong with this?
 For starters, when you sign up for a research position,
-you expect the supervisor to be your main contact?
+you expect the supervisor to be your main contact.
 That's only reasonable,
 _assuming_ the supervisor is also a reasoable person.
 If he/she is not, then... you're in for a ride.
