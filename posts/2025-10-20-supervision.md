@@ -24,7 +24,7 @@ I've "anonymized" the names in the following quotes:
 > --- M.
 
 Notice a pattern? That's what people call _negligence_;
-Willingly opting out of one's responsibility.
+willingly opting out of one's responsibility.
 
 Now, what's wrong with this?
 For starters, when you sign up for a research position,
