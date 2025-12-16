@@ -45,3 +45,5 @@ I don't know which path is objectively better.
 I **do** know that not getting proper mentorship,
 not being guided in shaping your own ideas,
 doesn't make you a good academic.
+
+[← Back to home](../index.html)
