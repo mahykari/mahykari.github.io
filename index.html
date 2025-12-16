@@ -8,10 +8,19 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="style.css" />
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -21,30 +30,47 @@
 <h1 class="title">Mahyar Karimi</h1>
 </header>
 <figure>
-<img src="/my_picture.jpg" alt="" /><figcaption>My picture, from early ’25</figcaption>
+<img src="/my_picture.jpg" alt="My picture, from early ’25" />
+<figcaption aria-hidden="true">My picture, from early ’25</figcaption>
 </figure>
-<p>I am a Ph.D. candidate at the Institute of Science and Technology Austria (current “ISTA,” former “IST Austria,” possibly changing in another 5 years), supervised by Tom Henzinger.</p>
+<p>I am a Ph.D. candidate at the Institute of Science and Technology
+Austria (current “ISTA,” former “IST Austria,” possibly changing in
+another 5 years), supervised by Tom Henzinger.</p>
 <p>You can find my CV <a href="/cv.pdf">here</a>.</p>
 <h3 id="contact-details">Contact Details</h3>
 <dl>
 <dt>Snail mail</dt>
-<dd>Am Campus 1, 3400 Klosterneuburg, Austria
+<dd>
+Am Campus 1, 3400 Klosterneuburg, Austria
 </dd>
 <dt>Email</dt>
-<dd>mahyar.karimi (at) ist (dot) ac (dot) at
+<dd>
+mahyar.karimi (at) ist (dot) ac (dot) at
 </dd>
 </dl>
 <h3 id="research">Research</h3>
-<p>Most of the things I like to work on live in the domains of formal verification and software engineering. My focus so far has been on <em>monitoring</em> (that is, runtime verification), secure <span class="math inline"><em>n</em></span>-party computation (<span class="math inline"><em>n</em> ≥ 2</span>), and verifiable machine learning. I’ll be happy to explore any of these topics further.</p>
+<p>Most of the things I like to work on live in the domains of formal
+verification and software engineering. My focus so far has been on
+<em>monitoring</em> (that is, runtime verification), secure <span
+class="math inline"><em>n</em></span>-party computation (<span
+class="math inline"><em>n</em> ≥ 2</span>), and verifiable machine
+learning. I’ll be happy to explore any of these topics further.</p>
 <h3 id="publications">Publications</h3>
-<p>Please visit my <a href="https://scholar.google.com/citations?user=J6Tlj6QAAAAJ&amp;hl=en">Google Scholar page</a>. You can identify me with my <a href="https://orcid.org/0009-0005-0820-1696">ORCID iD</a>.</p>
+<p>Please visit my <a
+href="https://scholar.google.com/citations?user=J6Tlj6QAAAAJ&amp;hl=en">Google
+Scholar page</a>. You can identify me with my <a
+href="https://orcid.org/0009-0005-0820-1696">ORCID iD</a>.</p>
 <h3 id="recent-posts">Recent Posts</h3>
 <ul>
-<li><a href="posts/2025-10-20-supervision.html">Academic “supervision”?</a> (20.10.2025)</li>
+<li><a href="posts/2025-12-16-third-wheel.html">The third wheel
+syndrome</a> (16.12.2025)</li>
+<li><a href="posts/2025-10-20-supervision.html">Academic
+“supervision”?</a> (20.10.2025)</li>
 </ul>
 <hr />
 <center>
-<em>This page is generated from pure Markdown, with Simple.css for styling.</em>
+<em>This page is generated from pure Markdown, with Simple.css for
+styling.</em>
 </center>
 </body>
 </html>
