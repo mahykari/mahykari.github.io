@@ -6,11 +6,10 @@ header-includes: |
 
 ![My picture, from early '25](/my_picture.jpg)
 
-I am a Ph.D. candidate at the
-Institute of Science and Technology Austria
-(current "ISTA," former "IST Austria,"
-possibly changing in another 5 years),
-supervised by Tom Henzinger.
+I was a Ph.D. candidate at the
+Institute of Science and Technology Austria (ISTA),
+supervised by Tom Henzinger,
+and am mastering out.
 
 You can find my CV [here](/cv.pdf).
 
@@ -20,7 +19,7 @@ Snail mail
 :  Am Campus 1, 3400 Klosterneuburg, Austria
 
 Email
-:  mahyar.karimi (at) ist (dot) ac (dot) at
+:  mahyar.karimi.work (at) outlook (dot) com
 
 ### Research
 
