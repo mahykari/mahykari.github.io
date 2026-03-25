@@ -2,7 +2,11 @@
 
 POSTS = $(patsubst %.md,%.html,$(wildcard posts/*.md))
 
-all: index.html $(POSTS)
+all: index.html $(POSTS) cv.pdf
+
+cv.pdf: cv/cv.tex
+	cd cv && latexmk -pdf cv.tex
+	cp cv/cv.pdf cv.pdf
 
 # For posts, we need to go up one directory to find the CSS
 posts/%.html: posts/%.md style.css
