@@ -6,30 +6,35 @@ header-includes: |
 
 ![My picture, from early '25](/my_picture.jpg)
 
-I was a Ph.D. candidate at the
-Institute of Science and Technology Austria (ISTA),
-supervised by Tom Henzinger,
-and am mastering out.
+I am a Ph.D. student at TU Wien,
+supervised by Prof. [Maria Christakis](https://mariachris.github.io/).
+I mastered out of [ISTA](https://ista.ac.at/),
+formerly IST Austria,
+which rebrands every few years
+and is not [ista International GmbH](https://www.ista.com/),
+the energy company;
+the latter at least provides a service.
 
 You can find my CV [here](/cv.pdf).
 
 ### Contact Details
 
 Snail mail
-:  Am Campus 1, 3400 Klosterneuburg, Austria
+:  Technische Universität Wien<br>Software Engineering 194-01<br>Mahyar Karimi<br>Favoritenstraße 9<br>1040 Wien
 
 Email
-:  mahyar.karimi.work (at) outlook (dot) com
+:  mahyar.karimi (at) tuwien (dot) ac (dot) at
 
 ### Research
 
 Most of the things I like to work on live in the domains of
 formal verification and software engineering.
-My focus so far has been on
-_monitoring_ (that is, runtime verification),
-secure $n$-party computation ($n \geq 2$),
-and verifiable machine learning.
-I'll be happy to explore any of these topics further.
+My focus is now on
+secure $n$-party computation ($n \geq 2$)
+and automated software testing.
+Being a musician myself,
+I also look for ways to use ideas from formal methods
+in creative fields.
 
 ### Publications
 
