@@ -43,6 +43,8 @@ You can identify me with my [ORCID iD](https://orcid.org/0009-0005-0820-1696).
 
 <!-- RECENT_POSTS -->
 
+[All posts](posts/index.html)
+
 ---
 
 <center>

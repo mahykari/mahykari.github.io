@@ -2,7 +2,15 @@
 
 POSTS = $(patsubst %.md,%.html,$(wildcard posts/*.md))
 
-all: index.html $(POSTS) cv.pdf
+all: index.html posts/index.html $(POSTS) cv.pdf
+
+posts/index.md: $(wildcard posts/2*.md)
+	@echo "---\ntitle: All Posts\n---\n" > $@
+	@ls posts/2*.md | sort -r | while read post; do \
+		title=`sed -n '/^title:/s/title: *//p' "$$post"`; \
+		date=`sed -n '/^date:/s/date: *//p' "$$post"`; \
+		echo "- [$$title](`basename $$post .md`.html) ($$date)" >> $@; \
+	done
 
 cv.pdf: cv/cv.tex
 	cd cv && latexmk -pdf cv.tex
@@ -25,7 +33,7 @@ index.html: index.md $(wildcard posts/*.md) style.css
 	@echo "Updating recent posts section..."
 	@cp index.md index.tmp
 	@echo "### Recent Posts\n" > recent.tmp
-	@ls posts/*.md | sort -r | head -n 3 | while read post; do \
+	@ls posts/2*.md | sort -r | head -n 3 | while read post; do \
 		title=`sed -n '/^title:/s/title: *//p' "$$post"`; \
 		date=`sed -n '/^date:/s/date: *//p' "$$post" | sed 's/\([0-9]\{4\}\)-\([0-9]\{2\}\)-\([0-9]\{2\}\)/\3.\2.\1/'`; \
 		html_file=`basename "$$post" .md`.html; \

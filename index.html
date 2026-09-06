@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
+  <meta name="generator" content="pandoc 3.11" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>Mahyar Karimi</title>
   <style>
@@ -10,8 +10,12 @@
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
     */
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     /* The extra [class] is a hack that increases specificity enough to
        override a similar rule in reveal.js */
@@ -22,7 +26,6 @@
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="style.css" />
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -56,11 +59,12 @@ mahyar.karimi (at) tuwien (dot) ac (dot) at
 </dl>
 <h3 id="research">Research</h3>
 <p>Most of the things I like to work on live in the domains of formal
-verification and software engineering. My focus is now on secure <span
-class="math inline"><em>n</em></span>-party computation (<span
-class="math inline"><em>n</em> ≥ 2</span>) and automated software
-testing. Being a musician myself, I also look for ways to use ideas from
-formal methods in creative fields.</p>
+verification and software engineering. My focus is now on secure
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math>-party
+computation
+(<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>≥</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">n \geq 2</annotation></semantics></math>)
+and automated software testing. Being a musician myself, I also look for
+ways to use ideas from formal methods in creative fields.</p>
 <h3 id="publications">Publications</h3>
 <p>Please visit my <a
 href="https://scholar.google.com/citations?user=J6Tlj6QAAAAJ&amp;hl=en">Google
@@ -68,13 +72,14 @@ Scholar page</a>. You can identify me with my <a
 href="https://orcid.org/0009-0005-0820-1696">ORCID iD</a>.</p>
 <h3 id="recent-posts">Recent Posts</h3>
 <ul>
+<li><a href="posts/2026-09-06-preventable-mortality.html">Preventable
+Mortality in Iran?</a> (06.09.2026)</li>
 <li><a href="posts/2026-01-11-home.html">On home, memory, and
 survival</a> (11.01.2026)</li>
 <li><a href="posts/2025-12-16-third-wheel.html">The third wheel
 syndrome</a> (16.12.2025)</li>
-<li><a href="posts/2025-10-20-supervision.html">Academic
-“supervision”?</a> (20.10.2025)</li>
 </ul>
+<p><a href="posts/index.html">All posts</a></p>
 <hr />
 <center>
 <em>This page is generated from pure Markdown, with Simple.css for
